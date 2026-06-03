@@ -42,3 +42,21 @@ iframe#tela {
     width:311px;
     height: 627px;
 }
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.300);
+    box-sizing: border-box; /* Garante que a borda seja incluída no tamanho total da imagem */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid #ffffff6e; /* Adiciona uma borda branca ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% ao passar o mouse */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
+}
